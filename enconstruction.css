@@ -1,0 +1,32 @@
+body{
+    background-color: #F6A844;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Open Sans Condensed' , sans-serif;
+    padding-top: 2em;
+    color: white;
+    
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Open Sans Condensed' , sans-serif;
+}
+
+#champdesaisie{
+   margin-left: 500px;
+}
+
+#button{
+    font-family:'Open Sans Condensed' , sans-serif;
+    font-size: 25px;
+}
+
+#suitesite{
+    font-family: 'Open Sans Condensed' , sans-serif;
+    text-align: center;
+}
+
