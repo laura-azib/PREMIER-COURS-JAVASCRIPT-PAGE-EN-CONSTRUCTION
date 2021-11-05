@@ -1,6 +1,6 @@
 function messageBienvenue(){
 
-    document.getElementById("bonjourprenom").innerHTML="Bonjour "+champdesaisie.value;
+    document.getElementById("bonjourprenom").innerHTML="Bonjour "+champdesaisie.value +" !";
 
 }
 
@@ -29,7 +29,7 @@ function messageBienvenue(){
 
     function messageDialogue(){
 
-        document.getElementById("boitedialogue").innerHTML="Bonjour "+champdesaisie.value + ", nous te confirmons que tu seras informé sur ton e-mail : "+email.value;
+        document.getElementById("textedialogue").innerHTML="Bonjour "+champdesaisie.value + " ! Nous te confirmons que tu seras informé sur ton e-mail : "+email.value;
     
     }
     
@@ -39,13 +39,14 @@ function messageBienvenue(){
     
 
         function cacheDialogue() {
-            boitedialogue.style.display = "none";
+            elementdialogue.style.display = "none";
            
         }
         cacheDialogue();
         
         function afficheDialogue(){
-            boitedialogue.style.display = "flex";
+            elementdialogue.style.display = "flex";
+            elementdialogue.style.zIndex = "1";
             
         }
         document.getElementById("button2").addEventListener("click", afficheDialogue);
