@@ -34,7 +34,7 @@ p{
     font-family:'Open Sans Condensed' , sans-serif;
     margin-left: 10px;
     background-color: white;
-    border-radius: 20%;
+    border-radius: 10%;
     border: 2px solid black;
     
 }
@@ -43,14 +43,14 @@ p{
 
 
 
- #thirddiv{
+#thirddiv{
      
     font-family: 'Open Sans Condensed', sans-serif;
     display: flex;
     justify-content: center;
  }
 
- #fourthdiv{
+#fourthdiv{
   justify-content: center;
     
 
@@ -58,17 +58,17 @@ p{
 
 
  
- #button2{
+#button2{
     font-family:'Open Sans Condensed' , sans-serif;
     font-size: 15px;
     margin-left: 10px;
     background-color: white;
-    border-radius: 20%;
+    border-radius: 10%;
     border: 2px solid black;
 
  }
 
- #fifthdiv{
+#fifthdiv{
     display: flex;
     justify-content: center;
 
@@ -76,36 +76,49 @@ p{
  }
 
 #elementdialogue{
-top: 0;
-left: 0;
+top: 200px;
 position: fixed;
 width: 100%;
 height: 100%;
 z-index: -1;
-
+display: flex;
+justify-content: center;
 
 
 
 }
 
- #boitedialogue{
+#boitedialogue{
      display: flex;
      justify-content: center;
      font-family:'Open Sans Condensed' , sans-serif;
      width: 500px;
      height: 250px;
-     background-color: white;
+     background-color:#B77D7C;
      border-radius: 10px;
      -webkit-border-radius: 10px;
      -moz-border-radius:  10px;
      padding:15px;
-     text-align:center;
+
      font-weight: bold;
      font-size: 15px;
-     border: 3px solid #B77D7C;  
+     border: 8px solid white;  
      align-items: center;
          
  }
 
+#button3{
+    font-family:'Open Sans Condensed' , sans-serif;
+    font-size: 15px;
+    margin-left: 250px;
+    background-color: white;
+    border-radius: 10%;
+    border: 2px solid black;
+    margin-bottom: 45%;
+}
  
+
+#textedialogue{
+
+}
 
