@@ -72,6 +72,7 @@ function messageBienvenue(){
             fourthdiv.style.display = "none";
             seconddiv.style.display = "none";
             div.style.display = "none";
+            thirddiv.style.display = "none";
             
         
         }
@@ -87,7 +88,7 @@ function messageBienvenue(){
 
         function messageAurevoir(){
 
-            document.getElementById("bonjourprenom").innerHTML="Merci "+champdesaisie.value +" et à bientôt !";
+            document.getElementById("bonjourprenom2").innerHTML="Merci "+champdesaisie.value +" et à bientôt !";
         
         }
         
