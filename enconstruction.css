@@ -11,22 +11,94 @@ h1{
 }
 
 p{
-    text-align: center;
+    
     font-size: 20px;
     font-family: 'Open Sans Condensed' , sans-serif;
+    color:#B77D7C;
+    font-weight: bold;
 }
 
-#champdesaisie{
-   margin-left: 500px;
+#firstdiv{
+   display:flex;
+   justify-content: center;
+}
+
+
+#seconddiv{
+    display: flex;
+    justify-content: center;
+    
 }
 
 #button{
     font-family:'Open Sans Condensed' , sans-serif;
-    font-size: 25px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 20%;
+    border: 2px solid black;
+    
 }
 
-#suitesite{
-    font-family: 'Open Sans Condensed' , sans-serif;
-    text-align: center;
-}
+
+
+
+
+ #thirddiv{
+     
+    font-family: 'Open Sans Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+ }
+
+ #fourthdiv{
+  justify-content: center;
+    
+
+ }
+
+
+ 
+ #button2{
+    font-family:'Open Sans Condensed' , sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 20%;
+    border: 2px solid black;
+
+ }
+
+ #fifthdiv{
+    display: flex;
+    justify-content: center;
+
+
+ }
+
+ #boitedialogue{
+     display: flex;
+     justify-content: center;
+     font-family:'Open Sans Condensed' , sans-serif;
+     width: 500px;
+     height: 250px;
+     margin: 100px auto;
+     background-color:white;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius:  10px;
+     padding:15px;
+     text-align:center;
+     font-weight: bold;
+     font-size: 15px;
+     border: 3px solid #B77D7C;
+     position: absolute;
+     left: 50%;
+     top: 100px;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     -webkit-transform: translate(-50%, -50%);
+     align-items: center;
+    
+     
+ }
 
