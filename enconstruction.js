@@ -9,7 +9,7 @@ function messageBienvenue(){
     document.getElementById("button").addEventListener('click', messageBienvenue);
     
 
-
+    
 
 //Ici cette fonction sert à cacher les div mentionnées avec la fonction "none"
     function cacheBloc() {
@@ -96,3 +96,103 @@ function messageBienvenue(){
 
 //.style.display = "block"; veut dire qu'il sera par dessus et visible
 //.style.display = "none" ; veut dire qu'il sera en dessous et caché
+
+
+
+//Ici cette fonction sert à cacher les div mentionnées avec la fonction "none" soit en l'occurence la barre de cookie
+
+function cacheDialogue3(){
+    barrecookie.style.display = "none";
+    
+}
+
+//Quand on clique sur le quatrième bouton la fonction ci-dessus s'éxecute    
+
+document.getElementById("button4").addEventListener("click", cacheDialogue3);
+
+
+
+
+
+
+//Ici on veut faire apparaître la fenêtre modale
+function afficheModale(){
+    fenetreModale.style.display = "flex";
+    fenetreModale.style.zIndex = "1";
+    
+}
+//Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
+
+document.getElementById("button5").addEventListener("click", afficheModale);
+
+
+//Le bouton deviendra vert au clic
+function changeColor1(){
+    button6.style.backgroundColor = "green";   
+}
+
+//Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
+document.getElementById("button6").addEventListener("click", changeColor1);
+
+
+
+
+//Le bouton deviendra rouge au clic
+function changeColor2(){
+    button7.style.backgroundColor = "red";    
+}
+
+//Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
+document.getElementById("button7").addEventListener("click", changeColor2);
+
+
+
+//Le bouton deviendra vert au clic
+function changeColor3(){
+    button8.style.backgroundColor = "green";   
+}
+
+//Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
+document.getElementById("button8").addEventListener("click", changeColor3);
+
+
+
+//Le bouton deviendra rouge au clic
+function changeColor4(){
+    button9.style.backgroundColor = "red";
+}
+
+//Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
+document.getElementById("button9").addEventListener("click", changeColor4);
+
+
+
+
+//Le bouton deviendra vert au clic
+function changeColor5(){
+    button10.style.backgroundColor = "green";    
+}
+
+//Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
+document.getElementById("button10").addEventListener("click", changeColor5);
+
+
+
+//Le bouton deviendra rouge au clic
+function changeColor6(){
+    button11.style.backgroundColor = "red";   
+}
+
+//Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
+document.getElementById("button11").addEventListener("click", changeColor6);
+
+
+
+function cacheFenetre(){
+    fenetreModale.style.display = "none";
+    
+}
+
+//Quand on clique sur le quatrième bouton la fonction ci-dessus s'éxecute    
+
+document.getElementById("button12").addEventListener("click", cacheFenetre);
