@@ -93,3 +93,6 @@ function messageBienvenue(){
         }
         
             document.getElementById("button3").addEventListener('click', messageAurevoir);
+
+//.style.display = "block"; veut dire qu'il sera par dessus et visible
+//.style.display = "none" ; veut dire qu'il sera en dessous et caché
