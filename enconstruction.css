@@ -147,40 +147,53 @@ justify-content: center;
 #barrecookie{
     position: fixed;
     border: 2px solid black;
-    width: 100%;
+    width: 95%;
     height: 50px;
     display: flex;
-    align-content: flex-end;
+    align-content: center;
+    justify-content: center;
     bottom: 0;
     left: 0;
+    border-radius: 10px;
+    border-color: white;
+    
     
 
 }
 
 #textecookie{
     font-family:'Open Sans Condensed' , sans-serif;
-    
+    color: black;
+    font-size: medium;
+
     
 }
 
-
+#buttons{
+    display: flex;
+    justify-content: end;
+    width: 20%;
+}
 
 #button4{
     font-family:'Open Sans Condensed' , sans-serif;
     font-size: 15px;
     background-color: white;
-    border-radius: 10%;
     border: 2px solid black;
-    width: 8%;
+    width: 60%;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #button5{
     font-family:'Open Sans Condensed' , sans-serif;
     font-size: 15px;
     background-color: white;
-    border-radius: 10%;
     border: 2px solid black;
-    width: 8%;
+    width: 60%;
+    margin-right: 10px;
+    margin-left: 10px;
+    
 }
 
 
@@ -219,7 +232,7 @@ justify-content: center;
     #traitement{
         color: #B77D7C;
         text-align: center;
-       
+        
     }
 
     #contenu{

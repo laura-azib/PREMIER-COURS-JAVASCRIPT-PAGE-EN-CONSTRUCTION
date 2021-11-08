@@ -127,64 +127,49 @@ document.getElementById("button5").addEventListener("click", afficheModale);
 
 
 //Le bouton deviendra vert au clic
-function changeColor1(){
-    button6.style.backgroundColor = "green";   
+function changeColorAccept(){
+    this.style.backgroundColor = "green";  
+    let buttonReverse = this.getAttribute("data-inverse");
+    document.getElementById(buttonReverse).style.backgroundColor = "#D3D3D3";
+    
 }
 
 //Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
-document.getElementById("button6").addEventListener("click", changeColor1);
+document.getElementById("button6").addEventListener("click", changeColorAccept);
+
+//Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
+document.getElementById("button8").addEventListener("click", changeColorAccept);
+
+
+//Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
+document.getElementById("button10").addEventListener("click", changeColorAccept);
+
+
 
 
 
 
 //Le bouton deviendra rouge au clic
-function changeColor2(){
-    button7.style.backgroundColor = "red";    
+function changeColorDeclined(){
+    this.style.backgroundColor = "red";  
+    let buttonReverse = this.getAttribute("data-inverse");
+    document.getElementById(buttonReverse).style.backgroundColor = "#D3D3D3";
 }
 
 //Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
-document.getElementById("button7").addEventListener("click", changeColor2);
-
-
-
-//Le bouton deviendra vert au clic
-function changeColor3(){
-    button8.style.backgroundColor = "green";   
-}
-
-//Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
-document.getElementById("button8").addEventListener("click", changeColor3);
-
-
-
-//Le bouton deviendra rouge au clic
-function changeColor4(){
-    button9.style.backgroundColor = "red";
-}
-
-//Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
-document.getElementById("button9").addEventListener("click", changeColor4);
+document.getElementById("button7").addEventListener("click", changeColorDeclined);
 
 
 
 
-//Le bouton deviendra vert au clic
-function changeColor5(){
-    button10.style.backgroundColor = "green";    
-}
-
-//Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
-document.getElementById("button10").addEventListener("click", changeColor5);
-
-
-
-//Le bouton deviendra rouge au clic
-function changeColor6(){
-    button11.style.backgroundColor = "red";   
-}
 
 //Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
-document.getElementById("button11").addEventListener("click", changeColor6);
+document.getElementById("button9").addEventListener("click", changeColorDeclined);
+
+
+
+//Quand on clique sur le bouton la fonction ci-dessus s'éxecute    
+document.getElementById("button11").addEventListener("click", changeColorDeclined);
 
 
 

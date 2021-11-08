@@ -11,49 +11,48 @@
 </head>
 <body>
     <div id="div">
-    <h1>¡ Site en construction !</h1>
+        <h1>¡ Site en construction !</h1>
     </div>
 
-    <div id="firstdiv">
+        <div id="firstdiv">
             <p>Entrez votre prénom s'il vous plait :</p>
-      </div>
+        </div>
 
 
-    <div id="seconddiv">
-         <input type="text" id="champdesaisie" name="name" size="50" >
-             <button id="button" type="button">Valider</button>
-    </div>
+                <div id="seconddiv">
+                    <input type="text" id="champdesaisie" name="name" size="50" >
+                        <button id="button" type="button">Valider</button>
+                </div>
 
 
-    <div id="thirddiv">
+                     <div id="thirddiv">
 
-         <p id="bonjourprenom"></p>
+                        <p id="bonjourprenom"></p>
 
-    </div>
+                    </div>
 
  
      
 
-    <div id="fourthdiv">
+        <div id="fourthdiv">
         
-        <p id="messagedebienvenue">Le site n’est pas tout à fait terminé ! Pour être informé de son
-            ouverture officielle, n’hésites pas à laisser ton mail. »</p><br>
+            <p id="messagedebienvenue">Le site n’est pas tout à fait terminé ! Pour être informé de son
+            ouverture officielle, n’hésitez pas à laisser votre mail. »</p><br>
     
         
 
 
-    </div>
-
-    <div id="fifthdiv">
+        </div>
 
 
-        <input type="email" id="email" size="50">
-        <button id="button2" type="button">Valider</button>
-    </div>
+        <div id="fifthdiv">
+             <input type="email" id="email" size="50">
+                <button id="button2" type="button">Valider</button>
+        </div>
 
-<div id="elementdialogue">
-    <div id="boitedialogue">
-        <div id="textedialogue"></div>
+            <div id="elementdialogue">
+                <div id="boitedialogue">
+                    <div id="textedialogue"></div>
     
 
         <div id="croix">
@@ -76,8 +75,12 @@
 
 <div id="barrecookie">
     <p id="textecookie">Des cookies sont utilisés pour vous founir notre service, le personnaliser, en mesurer l'audience et améliorer votre expérience.</p>
-    <button id="button4" type="button">Accepter</button>
-    <button id="button5" type="button">Personnaliser</button>
+
+        <div id="buttons">
+            <button id="button4" type="button">Accepter</button>
+            <button id="button5" type="button">Personnaliser</button>
+        </div>
+       
 
 
 </div>
@@ -92,20 +95,20 @@
 
 
         <div id="contenu">Contenu personnalisé
-            <button id="button6" type="button">Accepter</button>
-            <button id="button7" type="button">Refuser</button>
+            <button data-inverse="button7" id="button6" type="button">Accepter</button>
+            <button data-inverse="button6" id="button7" type="button">Refuser</button>
         </div>
 
         <div id="contenu2">Publicité Standard
-            <button id="button8" type="button">Accepter</button>
-            <button id="button9" type="button">Refuser</button>
+            <button data-inverse="button9" id="button8" type="button">Accepter</button>
+            <button data-inverse="button8" id="button9" type="button">Refuser</button>
 
 
         </div>
 
         <div id="contenu3">Mesure d'audiance
-            <button id="button10" type="button">Accepter</button>
-            <button id="button11" type="button">Refuser</button>
+            <button data-inverse="button11" id="button10" type="button">Accepter</button>
+            <button data-inverse="button10" id="button11" type="button">Refuser</button>
 
 
         </div>
